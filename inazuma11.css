@@ -34,13 +34,13 @@
     margin: 1.5rem 0;
 }
 
-a, .button {
+a {
     font-size: 1.3rem;
     color: black;
     transition: 0.3s;
 }
 
-a, .button:hover {
+a:hover {
     color: rgb(109, 109, 109);
     transition: 0.3s;
 }
@@ -61,19 +61,33 @@ a, .button:hover {
 
 .content {
     display: flex;
-    justify-content: space-between;
+    gap: 3rem;
     margin: 2rem 0;
     border: 0.1rem solid black;
-    padding: 1rem 2rem;
+    padding: 1rem 2rem 1.7rem 2rem;
     border-radius: 1rem;
+    width: 100%;
 }
 
-a, .diff {
-    color: black;
+.number {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
-h2 {
-    font-size: 1.5rem;
+.detailTeamsAndProvinces {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.bold {
+    font-weight: 700;
 }
 
 .group {
@@ -84,12 +98,3 @@ h2 {
     margin: 1rem 0 0 0;
     gap: 1rem;
 }
-
-.provincesCompetitions, .detail {
-    align-items: center;
-}
-
-
-
-
-
