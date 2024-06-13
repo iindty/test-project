@@ -12,20 +12,28 @@
 .container {
     display: flex;
     width: 100%;
+    background-color: #1f1e20;
 }
 
 .nav {
     display: flex;
     flex-direction: column;
-    width: 20%;
+    width: 15%;
     height: 100vh;
-    padding: 3rem 2rem;
+    padding: 2.5rem 2rem 1rem 2rem;
     justify-content: space-between;
-    border-right: 0.1rem solid black;
+    /* border-right: 0.1rem solid black; */
+}
+
+.logo {
+    display: flex;
+    justify-content: left;
 }
 
 .logo p {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #e27e3b;
 }
 
 .menu {
@@ -36,12 +44,12 @@
 
 a {
     font-size: 1.3rem;
-    color: black;
+    color: #ffffff;
     transition: 0.3s;
 }
 
 a:hover {
-    color: rgb(109, 109, 109);
+    color: #6d6d6d;
     transition: 0.3s;
 }
 
@@ -49,10 +57,32 @@ a:hover {
     padding: 1.5rem 0 0 0;
 }
 
+.create a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0.8rem;
+    background-color: #e27e3b;
+    border: 0.1rem solid #e27e3b;
+    color: #1f1e20;
+    font-weight: 700;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+}
+
+.create a:hover {
+    background-color: #1f1e20;
+    border: 0.1rem solid #e27e3b;
+    color: #e27e3b;
+}
+
 .section {
-    width: 80%;
-    height: 100vh;
+    width: 84%;
+    /* height: 100vh; */
     padding: 2.5rem;
+    border-radius: 1rem;
+    margin: 1rem 0;
+    background-color: white;
 }
 
 .header h1 {
